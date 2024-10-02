@@ -1,6 +1,4 @@
-![alt text](https://github.com/prasanthsteamA/images/blob/main/SteamA-BlackLogo%202%201.png)
-
-# SteamA | Higher Order Function
+Higher Order Function
 
  we have learnt some useful Higher Order Functions to manipulate arrays & objects. Now, let's put them to use in this lab.
 
