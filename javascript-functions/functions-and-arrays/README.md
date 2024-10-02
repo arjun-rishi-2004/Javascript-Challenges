@@ -1,6 +1,5 @@
-![alt text](https://github.com/prasanthsteamA/images/blob/main/SteamA-BlackLogo%202%201.png)
 
-# SteamA | Arrays & Functions
+| Arrays & Functions
 
 ## Introduction
 
