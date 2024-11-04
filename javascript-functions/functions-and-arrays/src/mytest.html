@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
+        // const words = ['George', 'Alice', 'Alex', 'John', 'Infanta', 'Xavior', 'LourdhAntony']
+function findScaryWord(words){
+  let max_word=words[0];
+  for( i=0 ; i<words.length;i++){
+    if (words[i].length>max_word.length){
+      max_word=words[i]
+    }
+  }
+  console.log(max_word)
+  return max_word;
+
+}
+
+findScaryWord(words)
+
+const mixedArr = [63, 122, 'audi', 61, true, 'volvo', '20', 'lamborghini', 38, 156];
+
+function add(mixed){
+  let res=0;
+  for (let ele of mixed){
+    
+    if (typeof ele == "number"){
+      res+=ele;
+    }
+    else if (typeof ele == "string"){
+      res+=ele.length;
+    } 
+    else if (typeof ele == "boolean"){
+      res+=ele == true ? 1 : 0 ;
+    }
+  }
+  console.log(res)
+  return res;
+}
+
+mat=[[(0,0) (0,1) (0,2) (0,3) (0,4)],
+     [(1,0) (1,1) (1,2) (1,3) (1,4)],
+     [(2,0) (2,1) (2,2) (2,3) (2,4)],
+     [(3,0) (3,1) (3,2) (3,3) (3,4)],
+     [(4,0) (4,1) (4,2) (4,3) (4,4)]]
+add(mixedArr)
+    </script>
+</body>
+</html>
